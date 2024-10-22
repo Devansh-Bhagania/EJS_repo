@@ -5,7 +5,7 @@ const PORT = 3000;
 app.set('view engine', 'ejs');
 
 app.get('/welcome', (req, res) => {
-    const userName = "Shandii"; 
+    const userName = "Shandilya"; 
     
     res.render('welcome', { name: userName });
 });
